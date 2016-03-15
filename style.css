@@ -49,6 +49,15 @@ body  {
 color:#000;
 }
 
+.sidebar2 {
+	text-transform: uppercase;
+}
+
+.hh {
+	text-transform: uppercase;	
+	padding-left: 15px;
+}
+
 #sidebar1 a:hover {
 text-decoration:underline;
 font-size:14px;
@@ -57,7 +66,7 @@ font-size:14px;
 .lgp #sidebar1 {
 	float: left; 
 	width: 200px; 
-	padding: 15px 10px 15px 20px;
+	padding: 0px 10px 15px 20px;
 }
 
 .lgp #sidebar1 ul  {
@@ -67,7 +76,8 @@ font-size:14px;
 }
 
 .lgp #sidebar1 ul  li {
-margin:10px 0;
+	margin:10px 0;
+	list-style-type: none;
 }
 
 .lgp #sidebar1 ul  li a {
@@ -126,7 +136,7 @@ margin:10px 0;
 
 .aaa {
 	width: 180px;
-	float: right;
+	float: left;
 	list-style-type: none;	
 }
 

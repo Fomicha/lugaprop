@@ -144,10 +144,11 @@ float:left;
 }
 
 .bordered {
-	margin:15px;
+	margin:15px auto;
 	border-radius:10px;
 	border:5px solid #00698c;
 	width:300px;
+	display: block;
 		
 }
 .clearfix {
